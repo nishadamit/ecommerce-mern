@@ -75,3 +75,18 @@ a {
   color: var(--color-febd69) !important;
 }
 /* headers ends here  */
+
+/* footer starts here */
+footer {
+  background-color: var(--color-232f3e);
+}
+footer:not(:first-child) {
+  border-top: 1px solid rgb(255, 255, 255, 0.1);
+}
+footer .input-group-text {
+  background-color: var(--color-232f3e);
+  color: white;
+  font-weight: 400;
+  padding: 8px 17px;
+}
+/* footer ends here  */
