@@ -33,15 +33,15 @@ const Header = () => {
               </Link>
             </div>
             <div className="col-5">
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="text"
-                  class="form-control py-2"
+                  className="form-control py-2"
                   placeholder="Search your product here"
                   aria-label="Search your product here"
                   aria-describedby="basic-addon2"
                 />
-                <span class="input-group-text p-3" id="basic-addon2">
+                <span className="input-group-text p-3" id="basic-addon2">
                   <BsSearch className="fs-6" />{" "}
                 </span>
               </div>
@@ -100,7 +100,7 @@ const Header = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src="images/menu.svg" />
+                      <img src="images/menu.svg" alt="menu" />
                       <span className="me-5 inline-block">Dropdown button</span>
                     </button>
                     <ul
