@@ -338,14 +338,19 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            <div className="d-flex g-10">
+            {
+              [1,2,3,4].map((item, i) =>(
+                <div className="col-3" key={i}>
+                  <BlogCard />
+                </div>
+
+              ))
+            }
           </div>
         </div>
+        </div>
       </section>
-  
     </>
   );
 };

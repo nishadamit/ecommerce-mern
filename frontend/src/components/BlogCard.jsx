@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 const BlogCard = () => {
   return (
-    <div className="col-3">
       <div className="blog-card">
         <div className="image-card">
           <img src="images/blog-1.jpg" alt="blog" className="img-fluid" />
@@ -17,7 +16,6 @@ const BlogCard = () => {
           <Link className="button">Read More</Link>
         </div>
       </div>
-    </div>
   );
 };
 
