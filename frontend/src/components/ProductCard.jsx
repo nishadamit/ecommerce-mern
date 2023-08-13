@@ -1,10 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import StarRatingComponent from 'react-star-rating-component';
 
-const ProductCard = () => {
+const ProductCard = (props) => {
+  const { grid } = props;
+  const pathname = useLocation().pathname;
+
   return (
-    <div className="col-3 mb-3">
+    <div className={pathname === '/our-store' ? `gr-${grid}`:"col-3 mb-3"}>
         <Link className="product-card position-relative">
             <div className="wishlist-icon">
                 <Link to="/">
@@ -22,6 +25,7 @@ const ProductCard = () => {
                     value={3}
                     name=''
                 />
+                <p className={`desc ${grid === 12 ? 'd-block': 'd-none'}`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores accusamus nesciunt aperiam vitae accusantium! Vitae accusantium ipsa autem laudantium modi fugit, earum eum dolore? Perspiciatis, corporis ex! Numquam, iure magni.</p>
                 <p className="price">$100</p>
             </div>
             <div className="action-bar position-absolute">
