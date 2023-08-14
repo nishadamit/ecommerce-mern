@@ -371,6 +371,7 @@ footer .input-group-text {
   border-color: rgba(0, 0, 0, 0.25);
 }
 .colors{
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -474,3 +475,40 @@ border: transparent;
     color: var(--color-777777)
 }
 /* contact page ends here */
+
+/* compare product page starts here */
+.compare-product-card{
+  background-color: #fff;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+.compare-product-card .cross-icon{
+  width: 15px;
+  position: absolute;
+  right: 7%;
+  top: 3%;
+}
+.compare-product-details h5.title{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+.compare-product-details h6.price{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-card .product-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.compare-product-card .product-detail h5{
+   font-size: 15px;
+   line-height: 22px;
+   margin-bottom: 0;
+}
+/* compare product page ends here */

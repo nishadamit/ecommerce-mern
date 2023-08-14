@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiOutlineHome, AiOutlineMail, AiOutlineInfoCircle } from "react-icons/ai";
 import {BiPhoneCall} from 'react-icons/bi';
-
 import Breadcrumb from '../components/Breadcrumb';
 import Meta from '../components/Meta';
 
@@ -15,9 +14,10 @@ const Contact = () => {
             <div className="row">
               <div className="col-12">
                 <iframe 
+                  title='map'
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448271.5333027438!2d77.35214080000002!3d28.6261248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1691986454260!5m2!1sen!2sin" 
                   height="450" 
-                  allowFullScreen="" 
+                  allowFullScreen={true} 
                   loading="lazy" 
                   className='w-100'
                   referrerPolicy="no-referrer-when-downgrade"

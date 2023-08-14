@@ -49,7 +49,7 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center g-10 text-white">
+                  <Link to={'/compare-product'} className="d-flex align-items-center g-10 text-white">
                     <img src="images/compare.svg" alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
@@ -65,7 +65,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center g-10 text-white">
+                  <Link to={'/compare-product'} className="d-flex align-items-center g-10 text-white">
                     <img src="images/user.svg" alt="user" />
                     <p className="mb-0">
                       Compare <br /> Products
