@@ -65,7 +65,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link to={'/compare-product'} className="d-flex align-items-center g-10 text-white">
+                  <Link to={'/login'} className="d-flex align-items-center g-10 text-white">
                     <img src="images/user.svg" alt="user" />
                     <p className="mb-0">
                       Log in  <br /> my account
