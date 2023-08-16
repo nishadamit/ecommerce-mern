@@ -57,7 +57,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center g-10 text-white">
+                  <Link to={'/wishlist'} className="d-flex align-items-center g-10 text-white">
                     <img src="images/wishlist.svg" alt="wishlist" />
                     <p className="mb-0">
                       Favourite <br /> wishlist
@@ -68,7 +68,7 @@ const Header = () => {
                   <Link to={'/compare-product'} className="d-flex align-items-center g-10 text-white">
                     <img src="images/user.svg" alt="user" />
                     <p className="mb-0">
-                      Compare <br /> Products
+                      Log in  <br /> my account
                     </p>
                   </Link>
                 </div>

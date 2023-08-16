@@ -488,13 +488,15 @@ border: transparent;
   right: 7%;
   top: 3%;
 }
-.compare-product-details h5.title{
+.compare-product-details h5.title,
+.wishlist-card h5.title{
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
   color: var(--color-1c1c1b);
 }
-.compare-product-details h6.price{
+.compare-product-details h6.price,
+.wishlist-card h6.price{
   font-size: 15px;
   line-height: 22px;
   font-weight: 400;
@@ -512,3 +514,12 @@ border: transparent;
    margin-bottom: 0;
 }
 /* compare product page ends here */
+
+/* wishlist apge starts here */
+.wishlist-card .cross-icon{
+  width: 15px;
+  position: absolute;
+  right: 10%;
+  top: 3%;
+}
+/* wishlist apge ends here here */
