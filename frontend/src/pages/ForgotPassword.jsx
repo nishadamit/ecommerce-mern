@@ -20,7 +20,8 @@ const ForgotPassword = () => {
                                 <input 
                                     type="text" 
                                     className="form-control" 
-                                    placeholder='Email' 
+                                    placeholder='Email'
+                                    name='email' 
                                 />
                             </div>
                             <div>

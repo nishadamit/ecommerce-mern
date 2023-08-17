@@ -1,26 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
 import Meta from '../components/Meta';
 
-const Login = () => {
+const SignUp = () => {
   return (
     <>
-        <Meta title = 'Login'/>
-        <Breadcrumb title = 'Login'/>
+        <Meta title = 'Sign Up'/>
+        <Breadcrumb title = 'Sign Up'/>
         <div className="login-wrapper py-5 home-wrapper-2">
             <div className="container-xxl">
                 <div className="row">
                     <div className="col-12">
                      <div className="auth-card">
-                        <h3 className='text-center mb-4'>Login</h3>
+                        <h3 className='text-center mb-4'>Sign Up</h3>
                         <form>
+                            <div>
+                                <input 
+                                    type="text" 
+                                    className="form-control"
+                                    placeholder='Name' 
+                                    name='name'
+                                />
+                            </div>
                             <div>
                                 <input 
                                     type="email" 
                                     className="form-control"
-                                    placeholder='Email'
-                                    name='email' 
+                                    placeholder='Email' 
+                                    name='email'
+                                />
+                            </div>
+                            <div>
+                                <input 
+                                    type="tel" 
+                                    className="form-control"
+                                    placeholder='Mobile Number' 
+                                    name='mobile'
                                 />
                             </div>
                             <div>
@@ -32,10 +47,8 @@ const Login = () => {
                                 />
                             </div>
                             <div>
-                                <Link to={'/forgot-password'}>Forgot password?</Link>
                                 <div className="d-flex justify-content-center align-items-center g-30 mt-3">
-                                    <button className='button border-0'>Login</button>
-                                    <Link to={'/signup'} className='button signup'>SignUp</Link>
+                                    <button className='button border-0'>Sign Up</button>
                                 </div>
                             </div>
                         </form>
@@ -48,4 +61,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default SignUp
