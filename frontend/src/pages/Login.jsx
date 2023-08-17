@@ -12,19 +12,21 @@ const Login = () => {
             <div className="container-xxl">
                 <div className="row">
                     <div className="col-12">
-                     <div className="login-card">
-                        <h3 className='text-center'>Login</h3>
+                     <div className="auth-card">
+                        <h3 className='text-center mb-4'>Login</h3>
                         <form>
                             <div>
                                 <input 
-                                    type="text" 
-                                    className="form-control" 
+                                    type="email" 
+                                    className="form-control"
+                                    placeholder='Email' 
                                 />
                             </div>
                             <div>
                                 <input 
-                                    type="text" 
+                                    type="password" 
                                     className="form-control" 
+                                    placeholder='Password'
                                 />
                             </div>
                             <div>

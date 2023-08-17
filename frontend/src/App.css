@@ -525,24 +525,25 @@ border: transparent;
 /* wishlist apge ends here here */
 
 /* login page starts here */
-.login-card{
+.auth-card{
   width: 500px;
   margin: 20px auto;
   background-color: #fff;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   border-radius: 10px;
 }
 
-.login-card h3{
+.auth-card h3{
   font-size: 19px;
   font-weight: 500;
   color: var(--color-777777);
 }
+.auth-card p{
+  color: var(--color-777777);
+  font-size: 13px;
+}
 
-.login-card .form-control{
+.auth-card .form-control{
   margin-bottom: 20px;
   height: 50px;
   background-color: var(--color-f5f5f7);
@@ -552,17 +553,17 @@ border: transparent;
   border-color: transparent;
 }
 
-.login-card a{
+.auth-card a{
   font-size: 14px;
   color: #1c1c1b;
   font-weight: 400;
 }
 
-.login-card .signup{
+.auth-card .signup{
   background-color: var(--color-febd69);
   color: var(--color-131921);
 }
-.login-card .signup:hover{
+.auth-card .signup:hover{
   background-color: var(--color-131921);
   color: white;
 }
