@@ -583,3 +583,10 @@ border: transparent;
   color: white;
 }
 /* login page ends here */
+
+/* policy page starts here */
+.policy{
+  padding: 30px;
+  background-color: #fff;
+}
+/* policy page ends here */
